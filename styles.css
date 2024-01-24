@@ -1,0 +1,65 @@
+#header {
+    position: sticky;
+    display: block;
+    height: 4vw;
+    background-color: rgba(44, 40, 40, 0.806);
+}
+
+body{
+    font-family: "Monaco", monospace;
+}
+
+#contents{
+    position: sticky;
+    display: block;
+    height: 100%;
+    background-color: rgb(72, 72, 72);
+    height: 50vw;
+}
+
+h1 {
+    font-size: 8vw;
+    color: white;
+}
+
+#introGreeting {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.p1 {
+    display: block;
+    color: white;
+    position: relative;
+}
+
+#welcomeQues {
+    top: 1vw;
+    font-size: 1.5vw;
+}
+
+#indchoices {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2vw;
+    width: 100%;
+    top: 2vw;
+}
+
+.choices {
+    width: 20vw;
+    border: none;
+    color: black;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    cursor: pointer;
+}
