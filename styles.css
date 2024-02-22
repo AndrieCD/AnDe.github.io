@@ -21,6 +21,8 @@ body{
     width: 100%;
     margin: auto;
     height: 5vw;
+    background-color: rgb(241, 241, 237);
+
 }
 
 #nameLink{
@@ -88,12 +90,12 @@ body{
     font-family: bryndan;
 }
 
-h1{
+#TitleText h1{
     font-size: 6vw;
     margin: 4% 15%;
 }
 
-h2{
+#TitleText h2{
     font-size: 2vw;
     margin: 2% 25%;
 }
@@ -127,24 +129,68 @@ h2{
 }
 
 #buttons{
-    display: flex;
-    position: relative;
     text-align: center;
     height: 100%;
     background-color: rgb(241, 241, 237);
     position: sticky;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     margin: auto;
+
+}
+
+#rpwtext{
+    font-size: 4vh;
+    font-family: bryndan;
+    margin: 1px 0px;
+    position: absolute;
+    left: 12%;
+    top: 17%;
+}
+
+#rrtext{
+    font-size: 4vh;
+    font-family: bryndan;
+    margin: 1px 0px;
+    position: absolute;
+    left: 44%;
+    top: 17%;
+}
+
+#icaretext{
+    font-size: 4vh;
+    font-family: bryndan;
+    margin: 1px 0px;
+    position: absolute;
+    left: 73%;
+    top: 17%;
 }
 
 #rpw{
-    position: relative;
-    background-color: white;
-    height: 50%;
-    width: 50%;
-    left: 50%;
     
+    position: absolute;
+    background-color: white;
+    height: 60%;
+    width: 25%;
+    left: 10%;
+    top: 25%;
+}
+
+#rr{
+    position: absolute;
+    background-color: white;
+    height: 60%;
+    width: 25%;
+    left: 39%;
+    top: 25%;
+}
+
+#icare{
+    position: absolute;
+    background-color: white;
+    height: 60%;
+    width: 25%;
+    left: 68%;
+    top: 25%;
 }
