@@ -21,6 +21,8 @@ body{
     width: 100%;
     margin: auto;
     height: 5vw;
+    background-color: rgb(241, 241, 237);
+
 }
 
 #nameLink{
@@ -88,63 +90,7 @@ body{
     font-family: bryndan;
 }
 
-h1{
-    font-size: 6vw;
-    margin: 4% 15%;
-}
-
 h2{
     font-size: 2vw;
     margin: 2% 25%;
-}
-
-#arrow{
-    position: absolute;
-    height: 8%;
-    width: 6%;
-    top: 85%;
-    left: 46%;
-    transform: rotate(90deg);
-    animation: arrowAnim 0.75s infinite linear;
-}
-
-@keyframes arrowAnim {
-    0%{
-        top: 80%;
-    }
-    25%{
-        top: 75%;
-    }
-    50%{
-        top: 80%;
-    }
-    75%{
-        top: 85%;
-    }
-    100%{
-        top: 80%;
-    }
-}
-
-#buttons{
-    display: flex;
-    position: relative;
-    text-align: center;
-    height: 100%;
-    background-color: rgb(241, 241, 237);
-    position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: auto;
-}
-
-#rpw{
-    position: relative;
-    background-color: white;
-    height: 50%;
-    width: 50%;
-    left: 50%;
-    
 }
