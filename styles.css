@@ -22,7 +22,7 @@ body{
     margin: auto;
     height: 5vw;
     background-color: rgb(241, 241, 237);
-
+    scroll-snap-align: start;
 }
 
 #nameLink{
@@ -71,6 +71,11 @@ body{
     display: block;
     height: 100vh !important;
     width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  &.proximity {
+      scroll-snap-type: y proximity;
+  }
 }
 
 #TitlePage {
@@ -128,6 +133,11 @@ body{
     }
 }
 
+#break{
+    height: 100%;
+    background-color: rgb(241, 241, 237);
+}
+
 #buttons{
     text-align: center;
     height: 100%;
@@ -137,7 +147,7 @@ body{
     justify-content: space-between;
     width: 100%;
     margin: auto;
-
+    scroll-snap-align: start;
 }
 
 #rpwtext{
@@ -145,7 +155,7 @@ body{
     font-family: bryndan;
     margin: 1px 0px;
     position: absolute;
-    left: 12%;
+    left: 10%;
     top: 17%;
 }
 
@@ -154,7 +164,7 @@ body{
     font-family: bryndan;
     margin: 1px 0px;
     position: absolute;
-    left: 44%;
+    left: 42%;
     top: 17%;
 }
 
@@ -163,34 +173,51 @@ body{
     font-family: bryndan;
     margin: 1px 0px;
     position: absolute;
-    left: 73%;
+    left: 71%;
     top: 17%;
 }
 
 #rpw{
-    
     position: absolute;
     background-color: white;
-    height: 60%;
+    height: 10%;
     width: 25%;
-    left: 10%;
+    left: 8%;
     top: 25%;
+    transition: height 0.75s;
 }
 
 #rr{
     position: absolute;
     background-color: white;
-    height: 60%;
+    height: 10%;
     width: 25%;
-    left: 39%;
+    left: 37%;
     top: 25%;
+    transition: height 0.75s;
 }
 
 #icare{
     position: absolute;
     background-color: white;
-    height: 60%;
+    height: 10%;
     width: 25%;
-    left: 68%;
+    left: 66%;
     top: 25%;
+    transition: height 0.75s;
+}
+
+#rpw:hover{
+    height: 60%;
+    transition: 0.75s;
+}
+
+#rr:hover{
+    height: 60%;
+    transition: 0.75s;
+}
+
+#icare:hover{
+    height: 60%;
+    transition: 0.75s;
 }
