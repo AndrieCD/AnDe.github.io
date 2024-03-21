@@ -110,7 +110,7 @@ h2{
 
 #S1RPW{
     scroll-snap-align: start;
-    font-size: 2vw;
+    font-size: 2vw !imporant; 
 }
 
 #arrow{
