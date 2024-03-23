@@ -251,3 +251,9 @@ body{
     height: 40%;
     transition: 0.75s;
 }
+
+p {
+    font-size: 2vw;
+    margin: 2% 10%;
+
+}
