@@ -134,9 +134,9 @@ h2{
     
 }
 
-#S1RR{
+h3{
     scroll-snap-align: start;
-    font-size: 2vw !imporant;
+    font-size: 2vw;
 }
 
 .container {
