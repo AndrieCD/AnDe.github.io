@@ -108,9 +108,9 @@ h2{
     background-color: rgb(241, 241, 237);
 }
 
-#S1RPW{
+h3{
     scroll-snap-align: start;
-    font-size: 2vw !imporant; 
+    font-size: 2vw;
 }
 
 #arrow{
